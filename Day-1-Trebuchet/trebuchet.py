@@ -1,10 +1,10 @@
 def main():
-    print(trebuchet())
+    print(Trebuchet())
     
-def trebuchet():
+def Trebuchet():
     count = 0
     
-    with open("test.txt") as file:
+    with open('test.txt') as file:
         for line in file:
             count += CalibrationValue(line)
             
