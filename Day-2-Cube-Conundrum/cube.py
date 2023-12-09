@@ -61,8 +61,6 @@ def GetCubes(line):
     cubes = re.finditer(CONST_FIND_CUBES, line)
         
     return list(map(lambda x : x.group(), cubes))
-    
-
         
 if __name__ == "__main__":
     main()
